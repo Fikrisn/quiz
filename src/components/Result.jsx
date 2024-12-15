@@ -13,4 +13,3 @@ function Result({ answers, questions }) {
   }
   
 export default Result;
-  
