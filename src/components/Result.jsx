@@ -4,7 +4,7 @@ function Result({ answers, questions }) {
     );
   
     return (
-      <div>
+      <div> 
         <h2>Hasil Quiz</h2>
         <p>Benar: {correctAnswers.length}</p>
         <p>Salah: {answers.length - correctAnswers.length}</p>

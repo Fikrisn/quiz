@@ -12,7 +12,7 @@ function App() {
   const [answers, setAnswers] = useState([]);
 
   useEffect(() => {
-    if (user) {
+    if (user) { 
       fetchQuestions().then((data) => setQuestions(data));
     }
   }, [user]);

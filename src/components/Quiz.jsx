@@ -74,7 +74,7 @@ const styles = {
   },
   optionButton: {
     padding: '12px',
-    fontSize: '18px',
+    fontSize: '18px', 
     borderRadius: '8px',
     border: '2px solid #f4a261',
     backgroundColor: '#ffecd2',

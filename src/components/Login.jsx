@@ -20,7 +20,7 @@ function Login({ onLogin }) {
           value={username}
           onChange={(e) => setUsername(e.target.value)}
           style={styles.input}
-        />
+        /> 
         <button onClick={handleLogin} style={styles.button}>
           Login
         </button>

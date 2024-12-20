@@ -4,7 +4,7 @@ import {useEffect, useState} from 'react';
 function Timer() {
     const [timeLeft, setTimeLeft] = useState(120);
   
-    useEffect(() => {
+    useEffect(() => { 
       const timer = setInterval(() => {
         setTimeLeft((prev) => prev - 1);
       }, 1000);
