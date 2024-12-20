@@ -10,5 +10,7 @@ export const fetchQuestions = async () => {
       console.error("Failed to fetch questions:", error.message);
       return []; // Kembalikan array kosong jika gagal
     }
+
+    
   };
   
